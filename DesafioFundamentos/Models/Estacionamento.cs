@@ -14,7 +14,7 @@ namespace DesafioFundamentos.Models
 
         public void AdicionarVeiculo()
         {
-            // Implementado!!!
+            // *Implementado!!!
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             string veiculo = Console.ReadLine();
             veiculos.Add(veiculo);
@@ -39,6 +39,7 @@ namespace DesafioFundamentos.Models
                 decimal valorTotal = precoInicial + precoPorHora * horas;
 
                 // TODO: Remover a placa digitada da lista de veículos
+                // *Implementado!!!
                 veiculos.Remove(placa);
 
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
@@ -56,7 +57,7 @@ namespace DesafioFundamentos.Models
             {
                 Console.WriteLine("Os veículos estacionados são:");
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
-                //Implementado!!!
+                // *Implementado!!!
                 foreach (string veiculo in veiculos)
                 {
                     Console.WriteLine(veiculo);
